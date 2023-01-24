@@ -26,7 +26,7 @@ public class PreBuild {
 //        model[1] = "Membuat Aplikasi Todo List";
 //        showTodoList();
 //    }
-
+    
     /**
      * Menambah Todo ke List
      */
@@ -41,7 +41,7 @@ public class PreBuild {
             }
         }
 
-    // Jika penuh, kita resize ukuran array 2x lipat
+    // Jika isFull, kita resize ukuran array 2x lipat
 
         if(isFull){
             var temporary = model;
@@ -52,7 +52,7 @@ public class PreBuild {
             }
         }
 
-    // Tambahkan ke posisi yang data arraynya null
+    // Tambahkan ke posisi yang data array nya null
         for (var i = 0; i < model.length; i++){
             if (model[i] == null ){
                 model[i] = todo;
@@ -127,7 +127,6 @@ public class PreBuild {
 //        var channel = input("Github");
 //        System.out.println(channel);
 //    }
-
 
     // VIEW
     /**
