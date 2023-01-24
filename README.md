@@ -1,1 +1,1 @@
-# java-todolist
+# A simple Terminal Java TodoList APP 
