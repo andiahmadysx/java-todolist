@@ -9,6 +9,7 @@ public class App {
 
 
     // BUSINESS LOGIC
+    
     /**
      * Menampilkan Todo List
      */
@@ -56,6 +57,7 @@ public class App {
         }
 
     }
+    
     /**
      * Menghapus Todo dari List
      */
@@ -74,7 +76,6 @@ public class App {
             }
             return true;
         }
-
     }
 
     /**
@@ -87,8 +88,8 @@ public class App {
     }
 
 
-
     // VIEW
+    
     /**
      * Menampilkan view Todo List
      */
