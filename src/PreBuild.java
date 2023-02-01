@@ -186,8 +186,8 @@ public class PreBuild {
 //        addTodoList("Satu");
 //        addTodoList("Dua");
 //
-//       viewAddTodoList();
-//       showTodoList();
+//        viewAddTodoList();
+//        showTodoList();
 //    }
 
     /**
